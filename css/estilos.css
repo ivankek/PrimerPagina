@@ -1,0 +1,1228 @@
+*{
+     margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: sans-serif;  
+  overflow-x: hidden;
+}
+header{
+    background-color: rgba(0, 70, 152, 0.87);
+    text-transform: uppercase;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+#imgbus{
+    height: 20px;
+    margin-bottom: -5px;
+    color: aliceblue;
+}
+
+header a{
+     margin-left: -60px;
+   
+}
+
+header input{
+    height: 22px;
+    width: 450px;
+    padding: 9px; 
+} 
+
+#Menu1{
+    padding: 20px 55px;
+    color: aliceblue;
+    
+}
+nav{
+    background-color: rgb(34, 120, 195); 
+}
+
+ul{
+    display: flex;
+    justify-content:center;  
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    padding: 10px 0px;
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a:hover{
+    color: rgb(34, 120, 195);
+    background-color: #ffffff;
+}
+.menu ul{
+   display: flex;
+    justify-content: center;
+	background-color: #000000; 
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li a{
+    color: #fff;
+    display: block;
+    padding:5px;
+    text-decoration: none;
+    margin-right: 7px;
+}
+.menu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.contenedor2{
+    display: flex;
+    margin-top: 5px;  
+    width: 100%;
+    justify-content: center;  
+}
+
+.slider{
+     background-image: url(../img/Salud_476963941_148954355_1024x576.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+   
+}
+
+i{  
+     margin-top: 70px;
+}
+
+#i1{ 
+    display: flex;   
+    justify-content: flex-start;
+    color: aliceblue;
+    
+}
+
+#i2{
+    display: flex;
+    margin: -16px;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.contenedor3 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contenedor3{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        margin: 40px 10px;
+        
+}
+
+
+
+.Titulopag{
+        color: rgba(0, 70, 152, 0.87);
+            margin: 20px;
+            text-align: center;
+}
+
+#img1{
+    height: 160px;
+    border-radius: 150px;
+}
+
+.Enfermedades{  margin: 15px;
+    background-color: rgba(0, 70, 152, 0.87);
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+       
+}
+
+#imgenf{
+    height: 18px;
+    margin-left: -40px;
+    margin-top: 7px;
+}
+
+#sec2{
+    
+    margin: 0px 250px 0px;
+    
+}
+
+#img2{
+    height: 160px;
+    width: 160px;
+    border-radius: 150px;
+}
+
+.Vacunas{margin: 15px;
+    background-color: rgba(0, 70, 152, 0.87);
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}
+
+#img3{
+    height: 160px;
+    border-radius: 150px;
+}
+
+.Hospitales{margin: 15px;
+        background-color: rgba(0, 70, 152, 0.87);
+    color: aliceblue;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}    
+    
+.contenedor4{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(34, 120, 195);
+            padding: 50px 120px;
+            color: aliceblue;
+}
+
+.mayuscula1{text-transform: uppercase;
+            padding: 10px 0px;
+            font-size: 60px;
+            font-weight:bold;
+}
+
+.art1{ 
+         
+    padding: 0px 150px;
+}
+
+#imgtelefono{
+  height: 80px;
+  margin-right: 40px;
+
+}
+
+.num{
+            margin: -22px;
+            font-size: 110px;
+            font-weight:bold;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 28px 40px;
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    background-color: rgba(0, 70, 152, 0.87);
+}
+
+#grupo{   margin-bottom: 10px;
+          font-weight:bold;
+         
+}
+
+#grupo2{   
+           font-weight:bold;
+         
+}
+#sociales{   margin-bottom: 10px;
+             font-weight:bold;
+         
+}
+
+.menuinferior{
+    padding: 0px 360px;
+}
+
+.menuinferior p{
+    margin-bottom: 10px;
+}
+
+.menuinferior a{
+    color: aliceblue;
+}
+
+#ig{
+    height: 35px;
+}
+
+#fb{
+    height: 35px;
+}
+
+#tw{
+    height:35px;
+}
+
+#TituloEnfermedades{
+    color: rgba(0, 70, 152, 0.87);
+    text-align: center;
+    padding: 20px;
+}
+
+#buscador2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#buscador2 input{
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+.ContenedorEnfermedades1{
+    justify-content: center;
+    display: flex;
+    padding: 30px 10px;
+ }
+
+.ContenedorEnfermedades1 a{
+    color: aliceblue;
+    text-decoration: none;
+    }    
+
+
+.PrimeraEnfermedad{
+    margin: 0px 0px;
+    width: 1000px;
+}
+
+#descripcion1{
+    margin: 10px 0px;
+    margin-bottom: 5px;
+}
+
+#Covid{
+    height: 140px;
+    width: 200px;
+    margin: 0px 20px
+}
+
+.detalle{
+    width: 100px;
+    margin: 7px -3px;
+    text-decoration: none;
+    background-color: rgba(0, 70, 152, 0.87);
+    color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}
+
+#CoronavirusDescripcion{
+    
+    margin-bottom: 5px;
+}
+
+#CoronavirusDescripcion2{
+    margin: 0px 0px;
+    margin-bottom: 5px;
+}
+
+#Covid19{
+     height: 202px;
+     margin: 0px 20px;
+     border-radius:5px;
+}
+
+.PrimeraEnfermedad1{
+    width: 470px
+}
+
+#TituloEnfermedades1{ color: rgba(0, 70, 152, 0.87);
+    text-align: center;
+    margin-top: 30px;
+text-transform: uppercase;    
+    
+}
+
+.tituloForms{
+    text-transform: uppercase;
+    margin-top: 30px;
+
+    text-align: center;
+    color: rgba(0, 70, 152, 0.87);
+    
+}
+
+.contenedorFormulario{
+    display: flex;
+    justify-content: center;
+    padding: 30px 80px;
+}
+
+.contenedorFormulario p{
+    
+    flex-direction: column;
+    text-align:left;
+    margin: 10px;
+    width: 500px;
+}
+
+.contenedorFormulario Label{
+   margin-bottom: 5px; 
+
+}
+
+.contenedorFormulario form{
+       margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorFormulario input{
+    
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+
+#nombre{
+    margin-left: 0px 80px;
+    width: 660px
+}
+
+#box1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dni{
+   display: flex;
+   flex-direction: column;
+   flex-basis: 80%;
+   padding-right: 5px;
+}
+
+.telefono{
+   display: flex;
+   flex-direction: column;
+   width: 320px;
+
+    
+}
+
+#box2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#ciudad{
+   width: 311px;
+}
+
+#sexo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+    margin-left: -190px;
+    
+}
+
+#sexoinput{
+    margin-top: 5px;
+}
+
+#mujer{
+ margin: 0px 5px;
+}
+
+
+
+#otropais{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#otropais input{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+#visitados select{
+padding: 5px; 
+width: 420px;
+border-radius: 8px;
+}
+
+#visitados{
+margin-top: 10px;
+}
+
+#visitadosBoton{
+margin-top: 5px;
+    
+}
+
+.formularios h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+#cajaSintomas{
+    margin-bottom: 10px;
+    
+}
+
+
+#enviar{
+    margin-left: 575px;
+    width: 100px;
+    color: aliceblue;
+    background-color: #1f1f1f;
+}
+
+
+
+.texto h4{
+    
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+
+#fydg{
+    padding: 25px;
+    height: 120px
+
+}
+
+#fyt{
+    margin-top: -30px;
+    margin-left: 180px;
+    height: 120px;
+   
+}
+
+.titulopre{
+    text-transform: uppercase;
+    margin-top: 0px;
+
+    text-align: center;
+    color: rgba(0, 70, 152, 0.87);
+    
+}
+
+#sectionImagenes{
+    display: flex;
+    justify-content: center;
+}
+
+#imagenespre{
+    
+    margin: 0px 70px;
+    margin-top: 20px;
+    margin-left: 130px;;
+}
+
+#jabon{
+    height: 200px;
+  margin: 20px 40px;  
+}
+
+.titulohosp{
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+    text-align: center;
+    color: rgba(0, 70, 152, 0.87);
+    
+}
+
+#sanatorio{
+    
+    width: 180px;
+    height: 105px;
+    margin: 8px 0px;
+    
+
+}
+
+#mascercano p{
+    margin-bottom: 10px;
+}
+
+#mascercano{
+    display: flex;
+    justify-content: center;
+    padding: 40px 140px;
+}
+
+#mapahospi{
+ margin-left: 200px;
+}
+
+#arcos{
+    font-weight: bold; 
+}
+.mapa iframe{
+    max-width: 100%;
+    margin: 0px 10px 20px 10px;
+}
+
+.mapa div{
+    text-align: center;
+}
+
+.mapa p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mapa h1{
+    text-align: center;
+    padding: 3px;
+}
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 100px;
+}
+
+#contactoArticleFormulario{
+    margin-right: 70px;
+}
+
+.contacto input{
+    width:370px;
+    padding: 7px;
+    border-color: #aaa8a8;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 20px;
+    
+    
+}
+
+#errorContacto{
+    margin-top: 20px;
+}
+
+#seHaCompletadoContacto{
+    margin-top: 20px;
+}
+
+.contacto textarea{
+    font-family: roboto;
+    padding: 10px;
+    border-color: #aaa8a8;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 20px;
+      
+}
+
+.contacto .boton{
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(0, 70, 152, 0.87);
+    width: 80px;
+}
+
+.contacto .mapa{
+    max-width: 100%;
+}
+
+.datos{
+    margin: 20px 20px;
+}
+
+.contacto img{
+    width: 25px;
+    padding: 10px;
+}
+
+header input{
+    width: 300px;
+}
+
+
+
+@media screen and (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
+    
+ div iframe{
+         position: relative;
+        left: 10px;
+        
+    }
+    
+    .datos iframe{
+        position: relative;
+        left: 10px;
+    }
+    
+    .contenedorFormulario{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .titulohosp{
+        width: 500px;
+    }
+    
+    .tituloForms{
+    width: 400px;
+    position: relative;
+    left: 40px;
+    }
+    
+    header{
+        width: 7;
+    }
+    
+    body{
+        width: 100%;
+        
+    }
+    
+    main{
+        width: 100%;
+    }
+    
+
+    
+    #box2{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #visitadosBoton select{
+       width: 300px;
+   
+    }
+   
+    footer{
+        display: flex;
+        flex-direction: column;
+        width:100;
+    
+    }
+    
+    .menuinferior{
+        position: relative;
+        top: -82px;
+        right: 80px;
+    }
+    
+    .redes{
+        position: relative;
+        top:-150px;
+        left: 20px;
+    }    
+  
+    #mascercano{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    iframe{
+    position: relative;
+    right: 200px;
+        
+     width: 300px;
+        
+    }
+  
+    #sexo{
+        position: relative;
+        left: 200px;
+    }  
+  
+    #enviar{
+     position: relative;
+     right: 330px
+    }
+    
+    .texto p{
+        
+        width: 350px;
+
+    }
+    
+    .texto img{
+        
+    position: relative;
+    left: 70px;
+        
+    }
+    
+    .texto #fyt{
+        
+        
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .ContenedorEnfermedades1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .ContenedorEnfermedades1 p{
+        width: 400px;
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+    
+    .ContenedorEnfermedades1 img{
+        width: 300px;
+        position: relative;
+        left: 80px
+    }
+    
+    #box1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    #nombre{
+        width: 85%;
+    }
+
+    
+    .ContenedorEnfermedades1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #title1{
+        position: relative;
+        left: 160px;
+        top:10px;
+    }
+    
+    #buscador2{
+        width: 400px;
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 700px){
+       
+    .contenedor3{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Titulopag{
+        width: 100%;
+    }
+    .contenedor4{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .minuscula1{
+        position: relative;
+        right: 130px;
+        
+    }
+    
+    .mayuscula1{
+        position: relative;
+        right: 130px;
+    }
+    
+    .num{
+        position: relative;
+        right: 20px;
+    }
+    
+    #imgtelefono{
+        position: relative;
+        right: 20px;
+        
+    }
+   
+     footer{
+        display: flex;
+        flex-direction: column;
+        width:100;
+    
+    }
+    
+    .menuinferior{
+        position: relative;
+        top: -82px;
+        right: 80px;
+    }
+    
+    .redes{
+        position: relative;
+        top:-150px;
+        left: 20px;
+    }   
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+   div iframe{
+         position: relative;
+        left: 10px;
+       width: 600px
+        
+    }
+    
+     .datos iframe{
+        position: relative;
+        left: 10px;
+        width: 500px;
+    }
+     iframe{
+    position: relative;
+    right: 190px;
+        
+     width: 300px;
+        
+    }
+    
+     .contenedorFormulario{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .titulohosp{
+        width: 500px;
+        margin-left: 100px;
+    }
+    
+    .tituloForms{
+   margin-left: 100px;
+    width: 400px;
+    position: relative;
+    left: 40px;
+    }
+    
+    #enviar{
+        position: relative;
+        right: 330px;
+    }
+    
+    #nombre{
+        width: 400px;
+    }
+    
+     #box1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #box2{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #visitadosBoton select{
+       width: 300px;
+   
+    }
+    
+    .contenedor3 #sec1{
+    position: relative;
+    left: 200px;
+        
+    }
+    
+    .contenedor3 .sec3{
+        position: relative;
+        right: 200px;
+    }
+    
+    
+    .Titulopag{
+        width: 100%;
+    }
+    .contenedor4{
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+    
+    .contenedor4 p{
+        text-align: center;
+      
+    }
+    
+    .contenedor4 img{
+        left: -0px
+    }
+    
+    .contenedor4 .num{
+        right: -100px;
+    }
+    
+    .minuscula1{
+        position: relative;
+        right: 130px;
+        
+    }
+    
+    .mayuscula1{
+        position: relative;
+        right: 130px;
+    }
+    
+   
+    
+    #imgtelefono{
+        position: relative;
+        right: 20px;
+        
+    }
+   
+     footer{
+        display: flex;
+        flex-direction: column;
+        width:100;
+    
+    }
+    
+    .menuinferior{
+        position: relative;
+        top: -82px;
+        right: 80px;
+    }
+    
+    .redes{
+        position: relative;
+        top:-240px;
+        right: -480px;
+    }   
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+  
+    
+     .contenedorFormulario{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .titulohosp{
+        width: 500px;
+        margin-left: 100px;
+    }
+    
+    .tituloForms{
+   margin-left: 100px;
+    width: 400px;
+    position: relative;
+    left: 40px;
+    }
+    
+    #enviar{
+        position: relative;
+        right: 330px;
+    }
+    
+    #nombre{
+        width: 400px;
+    }
+    
+     #box1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #box2{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #visitadosBoton select{
+       width: 300px;
+   
+    }
+   
+    .contenedor3 #sec1{
+    position: relative;
+    left: 200px;
+        
+    }
+    
+    .contenedor3 .sec3{
+        position: relative;
+        right: 200px;
+    }
+    
+    
+    .Titulopag{
+        width: 100%;
+    }
+    .contenedor4{
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+    
+    .contenedor4 p{
+        text-align: center;
+      
+    }
+    
+    .contenedor4 img{
+        left: -200px
+    }
+    
+    .contenedor4 .num{
+        right: 200px;
+    }
+    
+    .minuscula1{
+        position: relative;
+        right: 130px;
+        
+    }
+    
+    .mayuscula1{
+        position: relative;
+        right: 130px;
+    }
+    
+    .num{
+        position: relative;
+        right: 20px;
+    }
+    
+    #imgtelefono{
+        position: relative;
+        right: 20px;
+        
+    }
+   
+     footer{
+        display: flex;
+        flex-direction: column;
+        width:100;
+    
+    }
+    
+     .menuinferior{
+        position: relative;
+        top: -82px;
+        right: -90px;
+    }
+    
+    .redes{
+        position: relative;
+        top:-220px;
+        right: -750px;
+    }   
+}
+
+@media screen and (min-width:1200px) and (max-width: 1200px){
+
+ .contenedor3{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Titulopag{
+        width: 100%;
+    }
+    .contenedor4{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .contenedor4 .num{
+        position: relative;
+        right: 200px;
+    }
+    
+    .minuscula1{
+        position: relative;
+        right: 130px;
+        
+    }
+    
+    .mayuscula1{
+        position: relative;
+        right: 130px;
+    }
+    
+    .num{
+        position: relative;
+        right: 20px;
+    }
+    
+    #imgtelefono{
+        position: relative;
+        right: 20px;
+        
+    }
+   
+    footer{
+        display: flex;
+        flex-direction: column;
+        width:100;
+    
+    }
+    
+    .menuinferior{
+        position: relative;
+        top: -82px;
+        right: -120px;
+    }
+    
+    .redes{
+        position: relative;
+        top:-220px;
+        right: -880px;
+    }   
+}    
+    
+
+
+
+
+

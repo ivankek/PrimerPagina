@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluación de aprendizaje</title>
+    <link rel = stylesheet href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/3c0e82ede9.js" crossorigin="anonymous"></script>
+    <script src="js/codigo.js"></script>
+    <meta name="viewport" content="width=device-width" initial-scale=1.0>
+</head>
+
+  <body>
+   <header class= "contenedor1">
+       <div id = Menu1><form></form>
+       <h3 id= "logo">Logo</h3>
+       </div>
+       
+        <div>           
+            <label for="buscador"></label>
+            <input type="text" name="buscador" placeholder="Filtro por enfermedad" list="lista">
+            <datalist id="lista">
+                 <option><a href="covid-19.html">COVID-19</a></option>
+                 <option>Fiebre del Zika</option>
+                 <option>Fiebres Hemorrágicas</option>
+                 <option>Gripe</option>
+                 <option>VIH / Sida</option>
+            </datalist>
+            <a href="#">
+            <img id= "imgbus" src="img/search-148820_960_720.png" alt="lupa">
+            </a>
+        </div>    
+   </header>
+       
+    <main>
+     <section>
+           <div class="menu">
+                <ul >
+                    <li><a href="index.html"> Inicio </a></li>
+                    <li><a href="enfermedades.html"> Enfermedades </a></li>
+                    <li><a href="https://www.argentina.gob.ar/salud/vacunas" target="_blank"> Vacunas </a></li>
+                    <li><a href="hospitales.html"> Hospitales </a></li>
+                    <li><a href="contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+        </section>
+        
+     <h3 id="TituloEnfermedades1">Coronavirus (Covid-19)</h3> 
+    
+     <div class="ContenedorEnfermedades1">
+     <img id ="Covid19" src="img/corona.jpg" alt="Covid">
+     <article class="PrimeraEnfermedad1">
+     
+     <p id="CoronavirusDescripcion">
+        La enfermedad por coronavirus (COVID 19) es una enfermedad infecciosa causada por un coronavirus recientemente descubierto.
+     </p>
+     <p id="CoronavirusDescripcion2">La mayoría de las personas que enferman de COVID 19 experimentan síntomas de leves a moderados y se recuperan sin tratamiento especial.</p>
+     <p>El virus que causa la COVID‑19 se transmite principalmente a través de las gotículas generadas cuando una persona infectada tose, estornuda o espira. Estas gotículas son demasiado pesadas para permanecer suspendidas en el aire y caen rápidamente sobre el suelo o las superficies.</p>   
+       
+        
+     </article>    
+         
+     </div> 
+        
+     
+     <h2 class="tituloForms">
+      Formulario de detección (test) de Coronavirus (COVID19)  
+     </h2>  
+<section class= "contenedorFormulario">
+   
+    <article class = "texto">
+    <p>Hola usuario! Si tienes síntomas de XXXX o has estado en contacto
+    con una persona afectada deberías hacer un control y seguimiento diario de tus
+    síntomas.</p>
+    <p>
+    Esta aplicación te permitirá hacer un seguimiento de la evolución de los
+    síntomas y te dará las indicaciones y consejos a seguir en cada caso.
+    El uso de este servicio supone la aceptación de los términos y la política de
+    privacidad descritos en 'Ver las condiciones y políticas'</p>
+    
+    <h4> SÍNTOMAS </h4>
+    
+    <img id ="fydg" src="recursos/24-fiebre-dolor-garganta.png" alt="fydg">
+    <img id = "fydg" src="recursos/25-fiebre-dificultad-respirar.png" alt="fydr">
+    <img id ="fyt" src="recursos/23-fiebre-tos.png" alt="fyt">
+    </article>
+    
+    <article class = "formularios">
+   
+           <form id = "formulario" name= "formulario" action="#" method="get" enctype="application/x-www-form-urlencoded">
+            
+            <label for="nombre">Nombre y apellido</label>
+            
+              <input  type= "text" id="nombre" name="nombre" required
+               placeholder = "Ingrese su nombre y apellido">   
+      
+    <div id="box1">                              
+     <div class="dni">                                    
+     <label for="dni">DNI</label>
+     <input id="dni" type="number" 
+     required name="dni" placeholder="Ingrese su DNI">
+    </div>
+    <div class= telefono>                
+    <label for="telefono">Teléfono</label>
+     <input id="telefono" required type="number" name="telefono" placeholder="Ingrese su teléfono">
+    </div>
+    </div>                
+    
+    <div id="box2">
+    <div class="dni">  
+    <label for="Ciudad">Ciudad</label>
+    <input type= "text" id="ciudad" name="ciudad" required placeholder = "Ingrese su ciudad">     
+    </div>
+    
+    <div id ="sexo">
+    <label for="sexo">Sexo</label>
+    <div id = "sexoinput">              
+    <input id="hombre" type="radio" name="tipo_sexo" value="Hombre" checked> M
+    <input id="mujer" type="radio" name="tipo_sexo" value="Mujer">F           
+    </div>
+    </div>
+    </div>
+    
+   <div required>    
+   <label for="sexo">¿Has viajado al exterior de la Republica Argentina?</label>
+               
+    <input id="mujer" type="radio" name="viajado" value="si" onclick="mostrarPaises()">Sí
+    <input id="no" type="radio" name="viajado" value="no" onclick="ocultarPaises()"> No       
+    </div>
+    
+     <div id= "visitados">
+     <label required for="paises">Países visitados</label>
+     <div id= "visitadosBoton">
+     <select id="paises" name="paises">
+     <option value="1">Brasil</option>     <option value="2">Estados Unidos</option>
+     <option value="3">España</option>
+     <option value="4">Alemania</option>
+     <option value="5">Italia</option>
+     <option value="6">China</option>
+     <option value="7">Chile</option>
+     <option value="8">Uruguay</option>
+     <option value="9">Francia</option>
+     <option value="10">Otro</option>
+     <option value="11">No viaje a ningún otro país</option>
+     </select>
+     </div>
+    </div>
+    
+    
+    <h4>Por favor, indicá los síntomas que presentás</h4>
+    
+   <div id="cajaSintomas">
+   <div id="sintomas">
+   <label for="fiebre">¿Tuviste fiebre mayor a 38 grados?</label>
+                      
+    <input id="mujer" type="radio" name="fiebre" value="si" >Sí
+    <input id="no" type="radio" name="fiebre" value="no"> No       
+    </div>
+    <div id="sintomas">
+   <label for="sexo">¿Tuviste dolor de cabeza?</label>
+                     
+     <input id="mujer" type="radio" name="cabeza" value="si" >Sí
+    <input id="no" type="radio" name="cabeza" value="no"> No       
+   
+       </div>
+   
+   <div id="sintomas">
+   <label for="sexo">¿Tuviste una tos persistente</label>
+       
+                   
+     <input id="mujer" type="radio" name="tos" value="si" >Sí
+    <input id="no" type="radio" name="tos" value="Mujer"> No       
+   
+    </div>
+    <div id="sintomas">
+   <label for="sexo">¿Tuviste dolor de garganta</label>
+               
+    <input id="mujer" type="radio" name="garganta" value="si" >Sí
+    <input id="no" type="radio" name="garganta" value="no"> No       
+
+    </div>
+   <div id="sintomas">
+   <label for="sexo">¿Tuviste dificultad para respirar?</label>
+       
+                   
+    <input id="mujer" type="radio" name="respirar" value="si" onclick="mostrarDireccionYLocalidad()">Sí
+    <input id="no" type="radio" name="respirar" value="no" onclick="ocultarDireccionYLocalidad()"> No       
+    
+    </div>
+    </div>
+    
+    <div id="box1">
+    <div class="dni" id= "direccion">
+    <label for="Ciudad">Dirección</label>
+            
+    <input type= "text" id="" name="ciudad" required placeholder = "Ingrese su dirección">                                                 
+    </div>
+    <div class= "telefono" id = "localidad">
+    <label for="Ciudad">Localidad</label>
+            
+     <input type= "text" id="" name="ciudad" required placeholder = "Ingrese su localidad">  
+     </div>   
+     </div>
+     
+    <input id = "enviar" onclick = "return validacion()" type="submit" value= "Enviar">     
+    
+    <div id="error"></div>
+    <div id="seHaCompletado"></div>       
+    </form> 
+   
+           
+    </article>
+    </section>
+   
+     <h2 class="titulopre">
+      MEDIDAS DE PRECAUCIÓN  
+     </h2>
+    
+     <section id="sectionImagenes">
+    <div id="imagenespre"> 
+    <img id = "jabon" src="recursos/14-lavarse-manos.png" alt="">
+    <img id = "jabon" src="recursos/16-tocar-nariz.png" alt="">
+    <img id = "jabon" src="recursos/15-estornudar.png" alt="">
+    
+    <img id = "jabon" src="recursos/17-ventilar.png" alt="">
+    <img id = "jabon" src="recursos/18-limpiar-objetos.png" alt="">
+                           
+    <img id = "jabon" src="recursos/20-reducir-contacto.png" alt="">
+                       
+    <img id = "jabon" src="recursos/19-permanecer-domicilio.png" alt="">
+     
+    <img id = "jabon" src="recursos/21-no-compartir-mate.png" alt="">                     
+    </div>       
+   
+    </section>
+      <h2 class="titulohosp">
+     HOSPITAL MÁS CERCANO ESPECIALIZADO EN LA ENFERMEDAD  
+     </h2>
+   
+    <section id= "mascercano">
+    
+    <div id= izquierda>
+    
+    <p id= "arcos">Sanatorio de los Arcos<p>
+    <p>Teléfono: 011 4778-4500 </p>
+    <p>Dirección: Av. Juan B. Justo 909 </p>
+    <p>Ciudad: Ciudad Autónoma de Buenos Aires</p>
+    
+    <img id="sanatorio" src="img/imagen15g.jpg" alt="">
+    
+    </div>     
+          
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8995566466474!2d-58.429920164410234!3d-34.5814079951919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59003dca6b7%3A0x5d707472e25e3e44!2sDe%20Los%20Arcos!5e0!3m2!1ses-419!2sar!4v1591224801759!5m2!1ses-419!2sar" width="700" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapahospi"></iframe>
+        
+        
+    </section> 
+        
+    </main>
+       <footer>
+        
+           <section class="datos">
+            <p id="grupo">Datos del grupo:</p>
+            <p> Iván Kek 42225201</p>
+            <p> Santiago Fagliano 43103929</p>
+        </section>
+    
+        <section class = "menuinferior">
+            <p id= "grupo2">Menú inferior:</p>
+    
+            <p><a href="enfermedades.html">Enfermedades</a></p>
+            <p><a href="https://www.argentina.gob.ar/salud/vacunas" target="_blank">Vacunas</a></p>
+            <p><a href="hospitales.html">Hospitales</a></p>
+            <p><a href="contacto.html">Contacto</a></p>   
+    
+        </section>
+    
+        <section class = "redes">
+            <p id="sociales">Redes sociales:</p>    
+            <a href="https://www.instagram.com/ivannkek/"><img id = "ig" src="img/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png" alt=""></a> 
+            <a href="https://www.facebook.com/Ivaaaaaaaaaaaaaaaaaaaaaaaaaaaan"><img id="fb"src="img/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png" alt=""></a>
+            <a href="https://twitter.com/Ivannkek"><img id="tw" src="img/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png" alt="">
+            </a>
+        </section>
+    </footer>  
+</body>
+</html>
